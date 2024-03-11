@@ -1,0 +1,93 @@
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+}
+
+@media (min-width: 1190px) {
+  .section_text_p1 {
+    margin-top: 5rem;
+  }
+}
+
+@media (max-width: 1189px) {
+  .section_text_p2,
+  .location,
+  .clock {
+    font-size: 1.6rem;
+    margin-left: 1rem;
+  }
+  .section_text_p1 {
+    font-size: 3rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  .title {
+    font-size: 4rem;
+    margin-top: 5rem;
+  }
+  .name {
+    margin-right: 30px;
+  }
+  .socials-container {
+    margin-top: 3rem;
+    margin-right: 2rem;
+  }
+  .main-line {
+    display: none;
+  }
+
+  .box_1 {
+    display: block;
+  }
+  .PC_Pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 2px solid purple;
+  }
+  .PC {
+    height: 100px;
+    width: 100px;
+  }
+  #about {
+    height: 60rem;
+  }
+  .ebox {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+  .ebox1 {
+    margin-left: 23vh;
+  }
+  .ebox2 {
+    margin-left: 27vh;
+  }
+
+  #experience {
+    height: 80rem;
+  }
+  .ProjectsBox {
+    display: block;
+  }
+}
+
+@media (max-width: 588px) {
+  .profile {
+    text-align: center;
+  }
+  #about {
+    height: 75rem;
+  }
+  .ebox1 {
+    margin-left: 1vh;
+  }
+  .ebox2 {
+    margin-left: 3vh;
+  }
+}

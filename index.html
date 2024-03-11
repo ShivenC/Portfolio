@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">SC <img src="./assests/Shield.png" class="logo-image"/></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">about</a></li>
+          <li><a href="#about">contact</a></li>
+          <li><a href="#experience">experience</a></li>
+          <li><a href="#projects">projects</a></li>
+          <button class="resume">Resume</button>
+        </ul>
+      </div>
+    </nav>
+    <div class="main-line">
+      <div class="time"></div>
+      <hr/>
+    </div>
+    <nav id="hamburger-nav">
+      <div class="logo">SC</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="togglemenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="togglemenu()">About</a></li>
+          <li><a href="#experience" onclick="togglemenu()">Experience</a></li>
+          <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+        </div>
+      </div>
+    </nav>    
+    <section class="profile">
+      <div class="section_text">
+        <p class="section_text_p1">Hi, I'm</p>
+        <h1 class="title">Shiven Chhugani</h1>
+        <p class="section_text_p2">a cybersecurity student based in</p>
+        <p class="location">Tampa, Florida
+          <p id="time" class="clock"></p>
+        </p>
+        <div class="socials-container">
+          <a href="https://www.linkedin.com/in/shiven-chhugani" target="_blank">
+            <img src="./assests/linkedin.png" class="icon" />
+          </a>
+          <a href="https://github.com/ShivenC" target="_blank">
+            <img src="./assests/github.png" class="icon" />
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about">
+      <div class="page_title">Me</div>
+      <div class="about_box">
+        <div class="box_1">
+          <div class="box-p1">
+             For many years, I have also had a keen interest in technology. I always wondered what that big grey box in my father's office was. </br> 21 years later I am creating this website on much smaller yet more efficient <div class="st">grey box</div> 
+             <p class="p2"> I am a junior with Cybersecurity student at the University of South Florida. I am an international student from Jamaica and</p> have a great interest when it comes to programming and security related software. </br>
+             <p class="p3"> My first experience in the field was as an intern at ACT Advanced Call Center Technologies.  I was able to apply myself along with my knowledge in solving issues that staff dealt with including server room issues. </br> Later on in my career, I dug deeper into core software related to concept of cyber security. I have further knowledge in regards to network process involving several softwares such as Wireshark and NMap.</p> 
+          </div>
+        </div>
+        <div class="box_2">
+          <div class="info">
+              <div class="exp_p1">
+                <img src="./assests/education_image.png" class="logo"> Education
+              </div>
+           <div class="exp_p2">B.sc In Cybersecurity </br> at the Univeristy of South Florida </br> Expected Graduation: August 2025</div>
+          </div>
+        </div>
+      </div>  
+    </section>
+    <section id="experience">
+      <div class="page_title">Experience</div>
+      <div class="ebox">
+        <div class="ebox1">
+          <div class="ebox1_title">Frontend Developtment</div>
+            <div class="ebox1_details">
+              <p class="ebox_title">Python</p>
+              <p class="ebox_title">HTML</p>
+              <p class="ebox_title">JavaScript</p>
+              <p class="ebox_title">CSS</p>
+              <p class="ebox_title">SQL</p>
+            </div>
+        </div>
+          <div class="ebox2">
+            <div class="ebox1_title">Technology & Tools</div>
+              <div class="ebox1_details">
+                <p class="ebox_title">Nmap</p>
+                <p class="ebox_title">Wireshark</p>
+                <p class="ebox_title">Netlify</p>
+                <p class="ebox_title">Github</p>
+                <p class="ebox_title">VMware</p>
+              </div>
+          </div>
+      </div>
+   </section>
+    <section id="projects">
+      <div class="page_title">Projects</div>
+      <div class="ProjectsBox">
+        <div class="pbox1">
+          <div class="pbox1_title">Collaborative Task Manager</div>
+          <button class="GH">Github <img src="./assests/github.png" class="gicon" /></button>
+          <button class="LD">Live Demo</button>
+        </div>
+        <div class="pbox1">
+          <div class="pbox1_title">Motion Sensor Robot</div>
+          <button class="GH">Github <img src="./assests/github.png" class="gicon" /></button>
+        </div>
+        <div class="pbox1">
+          <div class="pbox1_title">Portfolio Website</div>
+          <button class="GH">Github <img src="./assests/github.png" class="gicon" /></button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
