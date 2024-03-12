@@ -74,6 +74,15 @@
   }
   .ProjectsBox {
     display: block;
+    text-align: center;
+    margin-left: 15rem;
+  }
+  .emailbox {
+    padding: 35px;
+    font-family: "Roboto Mono", monospace;
+    font-size: 20px;
+    border: 2px solid rgb(92, 90, 90);
+    width: fit-content;
   }
 }
 
@@ -89,5 +98,10 @@
   }
   .ebox2 {
     margin-left: 3vh;
+  }
+  .ProjectsBox {
+    display: block;
+    text-align: center;
+    margin-left: 1rem;
   }
 }

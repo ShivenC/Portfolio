@@ -18,10 +18,8 @@ function updateTime() {
 
 setInterval(updateTime, 1000);
 
-// Initial call to display the time immediately
 updateTime();
 
 function refreshPage() {
-  // Reload the current page
   location.reload();
 }
