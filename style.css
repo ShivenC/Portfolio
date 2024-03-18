@@ -421,3 +421,7 @@ section {
   font-size: 30px;
   border: 2px solid rgb(92, 90, 90);
 }
+
+.emailbox:hover {
+  color: grey;
+}
